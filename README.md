@@ -13,9 +13,9 @@ The time elapsed is measured. Also, the star rating is updated based on the numb
 When all the card pairs are matched, a popup dialog appears asking to restart the game.
 
 ### Special features
-When the user hovers on a card, the card is scaled to show that it is active
-When two cards do not match, after a few seconds, they automatically flip to their original state
-When two cards match, they are highlighted
+When the user hovers on a card, the card is scaled to show that it is active.
+When two cards do not match, after a few seconds, they automatically flip to their original state.
+When two cards match, they are highlighted.
 
 ## Resources used
 
