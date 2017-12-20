@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Memory Game </title>
+
+	<!-- Font Awesome Icon Library -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Script links -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div class = "container">
+<header>
+	<h1>Matching Game</h1>
+</header>
+
+	<section class = "score-panel">
+		<ul class="stars">
+			<li><i class="fa fa-star"></i></li>
+			<li><i class="fa fa-star"></i></li>
+			<li><i class="fa fa-star"></i></li>
+		</ul>
+		<span class="moves">0</span>Moves
+		<div class="timeDiv">
+			<span>Time Elapsed</span>
+			<span class="timeSpan"> 0:00 </span>
+		</div>
+		<div class="restart">
+			<i class="fa fa-repeat"></i>
+		</div>
+
+	</section>
+
+	<ul class="deck">
+		<li class="mcard">
+			<i class="fa fa-bicycle"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-bicycle"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-bullhorn"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-bullhorn"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-cube"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-cube"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-diamond"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-diamond"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-snowflake-o"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-snowflake-o"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-car"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-car"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-flask"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-flask"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-anchor"></i>
+		</li>
+		<li class="mcard">
+			<i class="fa fa-anchor"></i>
+		</li>
+	</ul>
+</div>
+
+<div id="success-modal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header"></div>
+			<div class="modal-body">
+				<section class="modal-section">
+				<i class="fa fa-thumbs-up"></i>
+				</section>
+				<section class="modal-section">
+				<p>Congratulations!!!</p>
+				<p>Time taken - <span class="timeSpan">0:00 </span></p>
+				<p>Moves - <span class="moves">0 </span></p>
+				<p>Star rating - <span class="numStars">3</span></p>
+				</section>
+			</div>
+			<div class="modal-footer">
+				<button class="restart">Restart</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="js/gamescript.js"> </script>
+</body>
+</html>
